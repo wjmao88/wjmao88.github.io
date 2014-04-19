@@ -1,0 +1,39 @@
+header.navigation{
+  $background-color: #33333f;
+  $text-color: #ffffff;
+  $highlight-color: #000000;
+
+  height: 30px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: $background-color;
+  color: $text-color;
+
+  * {
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  nav {
+    width: 60%;
+    ul{
+      width: 100%;
+      margin: 0;
+    }
+    li {
+      color: $text-color;
+      float: left;
+      width: 25%;
+      border-bottom: solid $background-color 2px;
+      &.selected{
+        border-color: $highlight-color;
+      }
+    }
+  }
+}

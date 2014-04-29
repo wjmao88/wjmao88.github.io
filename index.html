@@ -4,16 +4,18 @@
   <script src="http://code.angularjs.org/1.3.0-beta.5/angular.min.js" ></script>
   <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
   <title> Wei Jia Mao </title>
+  <script src="js/data.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/profile.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body ng-app="main">
   <header class="navigation">
     <nav>
       <ul>
-        <li><a ui-sref="home">Wei Jia (Wesley) Mao</a></li>
-        <li><a ui-sref="resume">Resume</a></li>
-        <li><a ui-sref="projects">Projects</a></li>
-        <li><a ui-sref="blog">Blog</a></li>
+        <a ui-sref="home"><li>Wei Jia (Wesley) Mao</li></a>
+        <a ui-sref="projects"><li>Projects</li></a>
+        <a href="http://blog.wesley.cat"><li>Blog</li></a>
       </ul>
     </nav>
   </header>

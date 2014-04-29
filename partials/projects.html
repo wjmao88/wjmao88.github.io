@@ -1,0 +1,25 @@
+<div class="projects" ng-controller="ProjectController">
+  <section class="project" ng-repeat="project in projects">
+    <header>
+      <span class="title">
+        {{project.name}}
+      </span>
+      <span class="info">
+        {{project.location}} - {{project.time}}
+      </span>
+    </header>
+    <div>
+      <a href="link.url" ng-repeat="link in project.links">
+        {{link.name}}
+      </a>
+    </div>
+    <p>
+      {{project.description}}
+    </p>
+    <ul>
+      <li ng-repeat="detail in project.details">
+        {{detail}}
+      </li>
+    </ul>
+  </section>
+</div>

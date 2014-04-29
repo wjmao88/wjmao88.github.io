@@ -1,6 +1,10 @@
+.panel:after, .projects .project:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 header.navigation {
-  height: 30px;
-  padding: 5px;
+  height: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,22 +16,37 @@ header.navigation {
     display: inline-block;
     text-align: center; }
   header.navigation nav {
-    width: 60%; }
+    width: 100%; }
     header.navigation nav ul {
       width: 100%;
       margin: 0; }
-    header.navigation nav li {
+    header.navigation nav a {
       color: white;
       float: left;
       width: 25%;
-      border-bottom: solid #33333f 2px; }
-      header.navigation nav li.selected {
-        border-color: black; }
+      padding: 15px;
+      font-size: 1.2em; }
+      header.navigation nav a:hover {
+        font-size: 1.3em;
+        background-color: black; }
 
 .panel {
-  margin: 35px;
+  margin: 90px;
   padding: 5%;
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+  max-width: 1100px; }
+  .panel .card {
+    float: left;
+    max-width: 600px; }
+  .panel .photo {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden; }
+    .panel .photo img {
+      width: 100%;
+      height: auto; }
   .panel .name {
     font-size: 2.5em;
     font-weight: 900; }
@@ -43,8 +62,10 @@ header.navigation {
     color: #eeeeee; }
     .panel .keyword.big {
       font-size: 1.5em; }
-    .panel .keyword.small {
+    .panel .keyword.medium {
       font-size: 1.2em; }
+    .panel .keyword.small {
+      font-size: 1em; }
   .panel .links a {
     display: inline-block;
     margin: 10px; }
@@ -61,9 +82,19 @@ header.navigation {
     width: 48px;
     height: 48px; }
 
+.projects .project {
+  min-width: 300px;
+  max-width: 600px; }
+.projects .title {
+  float: left; }
+.projects .info {
+  float: right; }
+
 * {
   box-sizing: border-box;
-  font-family: helvetica; }
+  font-family: helvetica;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
 
 a {
   color: inherit;
@@ -73,4 +104,4 @@ a:visited {
   color: inherit; }
 
 .main {
-  margin-top: 30px; }
+  margin-top: 60px; }

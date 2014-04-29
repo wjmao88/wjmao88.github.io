@@ -1,16 +1,15 @@
-<div class="panel">
-  <div>
+<div class="panel" ng-controller="ProfileController">
+  <div class="photo">
+    <img src="assets/me.jpg">
+  </div>
   <div class="card">
     <div class="name">
       Wei Jia (Wesley) Mao
     </div> 
     <div class="info">
-      <div class="keyword big">Full Stack</div>
-      <div class="keyword big">Javascript</div>
-      <div class="keyword small">Node</div>
-      <div class="keyword small">Express</div>
-      <div class="keyword small">Angular</div>
-      <div class="keyword small">jQuery</div>
+      <div class="keyword big" ng-repeat="skill in skills.big">{{skill}}</div>
+      <div class="keyword medium" ng-repeat="skill in skills.medium">{{skill}}</div>
+      <div class="keyword small" ng-repeat="skill in skills.small">{{skill}}</div>
     </div>
     <div class="links">
       <a href="mailto:wjmao88@gmail.com">

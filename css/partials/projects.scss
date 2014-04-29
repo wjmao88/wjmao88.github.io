@@ -1,13 +1,14 @@
 .projects {
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
   .project {
-    min-width: 300px;
-    max-width: 600px;
+    margin: 5px;
+    padding: 10px;
+    border: solid black 1px;
   }
   header{
     @extend %clearfix;
-  }
-  .title{
-    float: left;
   }
   .info{
     float: right;

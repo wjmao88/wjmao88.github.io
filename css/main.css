@@ -1,4 +1,4 @@
-.panel:after, .projects .project:after {
+.panel:after, .projects header:after {
   content: "";
   display: table;
   clear: both; }
@@ -82,13 +82,16 @@ header.navigation {
     width: 48px;
     height: 48px; }
 
-.projects .project {
+.projects {
   min-width: 300px;
-  max-width: 600px; }
-.projects .title {
-  float: left; }
-.projects .info {
-  float: right; }
+  max-width: 600px;
+  margin: auto; }
+  .projects .project {
+    margin: 5px;
+    padding: 10px;
+    border: solid black 1px; }
+  .projects .info {
+    float: right; }
 
 * {
   box-sizing: border-box;

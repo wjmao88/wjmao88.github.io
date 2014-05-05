@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited{
+  color: inherit;
+}
+
+.main{
+  margin-top: 60px;
+}

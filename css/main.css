@@ -41,8 +41,8 @@ header.navigation {
   .panel .photo {
     float: right;
     margin: 10px;
-    width: 300px;
-    height: 400px;
+    width: 150px;
+    height: 200px;
     overflow: hidden; }
     .panel .photo img {
       width: 100%;

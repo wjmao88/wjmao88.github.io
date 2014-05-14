@@ -11,7 +11,7 @@ window.myData = {
     description: 'Professional networking app',
     links: [{
           name: '20app.co',
-          url: '20app.co'
+          url: 'http://20app.co'
         }],
     techs: ["Angular", "Node", "Express", "Neo4j/Cypher", "Python"],
     details: [
@@ -25,7 +25,7 @@ window.myData = {
     description: 'Backend as a service',
     links: [{
           name: 'waterbase.io',
-          url: 'waterbase.io'
+          url: 'http://waterbase.io'
         }],
     techs: ["Angular", "Node", "Express", "Mongodb"],
     details: [
@@ -42,10 +42,10 @@ window.myData = {
     //description: '',
     links: [{
       name: 'Red Black Tree',
-      url: 'wesley.cat/ds-viewer'
+      url: 'http://wesley.cat/ds-viewer'
     },{
       name: 'Directed Acyclic Word Graph',
-      url: 'wesley.cat/dawg'
+      url: 'http://wesley.cat/dawg'
     }],
     techs: ["Angular", "Node", "Express", "Mongodb"],
     details: [
@@ -59,7 +59,7 @@ window.myData = {
     description: 'Realtime multiplayer game',
     links: [{
           name: 'shootstuff.azurewebsites.net',
-          url: 'shootstuff.azurewebsites.net'
+          url: 'http://shootstuff.azurewebsites.net'
         }],
     techs: ["Angular", "Socket.io", "Node", "Express", "Mongodb"],
     details: [
@@ -75,7 +75,7 @@ window.myData = {
     description: 'Restaurant website and ordering system',
     links:[ {
           name: 'hkr20147.com',
-          url: 'hkr20147.com'
+          url: 'http://hkr20147.com'
         }],
     techs: ["Angular", "SASS", "Node", "Express", "Mongodb"],
     details: [

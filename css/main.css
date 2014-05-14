@@ -19,11 +19,14 @@ header.navigation {
     width: 100%; }
     header.navigation nav ul {
       width: 100%;
+      min-width: 320px;
+      max-width: 700px;
+      margin: 0 auto;
       margin: 0; }
     header.navigation nav a {
       color: white;
       float: left;
-      width: 25%;
+      width: 33%;
       padding: 15px;
       font-size: 1.2em; }
       header.navigation nav a:hover {

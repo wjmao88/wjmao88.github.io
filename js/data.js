@@ -24,8 +24,8 @@ window.myData = {
     time: '2014',
     description: 'Backend as a service',
     links: [{
-          name: '20app.co',
-          url: '20app.co'
+          name: 'waterbase.io',
+          url: 'waterbase.io'
         }],
     techs: ["Angular", "Node", "Express", "Mongodb"],
     details: [
@@ -87,7 +87,7 @@ window.myData = {
   }, {
     name: 'Software Developer, iSoftStone/Huawei',
     time: '2014',
-    description: 'Data Warehousing developement with Orcle 11g database',
+    description: 'Data Warehousing developement with Oracle 11g database',
     techs: ["PL/SQL"],
     details: [
       'Designed financial report formats with accountants and business analysts.',

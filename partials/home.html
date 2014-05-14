@@ -1,16 +1,11 @@
 <div class="panel" ng-controller="ProfileController">
-  <div class="photo">
-    <img src="assets/me.jpg">
-  </div>
   <div class="card">
+    <div class="photo">
+      <img src="assets/me.jpg">
+    </div>
     <div class="name">
       Wei Jia (Wesley) Mao
     </div> 
-    <div class="info">
-      <div class="keyword big" ng-repeat="skill in skills.big">{{skill}}</div>
-      <div class="keyword medium" ng-repeat="skill in skills.medium">{{skill}}</div>
-      <div class="keyword small" ng-repeat="skill in skills.small">{{skill}}</div>
-    </div>
     <div class="links">
       <a href="mailto:wjmao88@gmail.com">
         <div class="link-icon">
@@ -27,6 +22,39 @@
           <img src="assets/linkedin.svg">
         </div>
       </a>
+    </div>
+  </div>
+  <div class="card">  
+    <div class="tech-keyword big" ng-repeat="skill in skills.big">{{skill}}</div>
+    <div class="tech-keyword medium" ng-repeat="skill in skills.medium">{{skill}}</div>
+    <div class="tech-keyword small" ng-repeat="skill in skills.small">{{skill}}</div>
+  </div>
+
+  <div class="horizontal-line"></div>
+
+  <div class="card project-overview">
+    <div class="card-img twenty-img">
+      <img src="assets/twenty_ss.png">
+    </div>
+    <div class="title">
+      Twenty
+    </div>
+    <div class="description">
+      Professional networking app
+      Angular, Express, Node, Neo4j, Python
+    </div>
+  </div>
+
+  <div class="card project-overview">
+    <div class="card-img waterbase-img">
+      <img src="assets/waterbase_letter.png">
+    </div>
+    <div class="title">
+      Waterbase
+    </div>
+    <div class="description">
+      Real time Backend as a Service
+      Angular, Express, Node, Mongodb
     </div>
   </div>
 </div>

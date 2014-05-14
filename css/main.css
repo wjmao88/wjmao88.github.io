@@ -31,67 +31,104 @@ header.navigation {
         background-color: black; }
 
 .panel {
-  margin: 90px;
-  padding: 5%;
-  background-color: #eeeeee;
-  max-width: 1100px; }
+  margin: 0 auto;
+  max-width: 700px; }
   .panel .card {
-    float: left;
-    max-width: 600px; }
-  .panel .photo {
-    float: right;
-    margin: 10px;
-    width: 150px;
-    height: 200px;
-    overflow: hidden; }
-    .panel .photo img {
-      width: 100%;
-      height: auto; }
-  .panel .name {
-    font-size: 2.5em;
-    font-weight: 900; }
-  .panel .info {
-    margin: 30px 0;
+    background-color: #666699; }
+    .panel .card .photo {
+      overflow: hidden;
+      margin: 5px auto;
+      width: 195px;
+      height: 246px; }
+      .panel .card .photo img {
+        width: 195px;
+        height: 246px; }
+    .panel .card .name {
+      font-size: 1.5em;
+      font-weight: 900;
+      padding: 10px;
+      color: white;
+      text-align: center; }
+  .panel .links {
+    width: 300px; }
+    .panel .links a {
+      margin: 10px 10px;
+      float: right; }
+    .panel .links .link-icon {
+      cursor: pointer;
+      border-radius: 100%;
+      width: 80px;
+      height: 80px;
+      background-color: #ddddff; }
+    .panel .links .link-icon:hover {
+      background-color: #666699; }
+    .panel .links img {
+      margin: 20px;
+      width: 40px;
+      height: 40px; }
+  .panel .skills {
+    clear: both;
     width: 100%; }
-  .panel .keyword {
-    display: inline-block;
-    padding: 9px;
-    margin: 6px;
-    border-radius: 6px;
-    background-color: #6666ee;
-    color: #eeeeee; }
-    .panel .keyword.big {
-      font-size: 1.5em; }
-    .panel .keyword.medium {
-      font-size: 1.2em; }
-    .panel .keyword.small {
-      font-size: 1em; }
-  .panel .links a {
-    display: inline-block;
-    margin: 10px; }
-  .panel .links .link-icon {
-    cursor: pointer;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    background-color: #ddddff; }
-  .panel .links .link-icon:hover {
-    background-color: #aaaaff; }
-  .panel .links img {
-    margin: 21px;
-    width: 48px;
-    height: 48px; }
 
-.projects {
+.projects .project {
+  background-color: #666699;
+  border: solid 1px white;
+  padding: 20px;
+  margin: 10px auto;
   min-width: 300px;
-  max-width: 600px;
-  margin: auto; }
-  .projects .project {
-    margin: 5px;
-    padding: 10px;
-    border: solid black 1px; }
-  .projects .info {
-    float: right; }
+  max-width: 600px; }
+.projects header .title {
+  font-size: 1.8em; }
+.projects header .info {
+  float: right; }
+.projects .description {
+  font-size: 1.2em;
+  margin: 5px; }
+.projects .link {
+  text-decoration: underline; }
+.projects li {
+  font-size: 1.2em; }
+
+.tech-keyword {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 9px 18px;
+  margin: 6px;
+  border-radius: 6px;
+  color: white; }
+  .tech-keyword.big {
+    font-size: 1.2em; }
+  .tech-keyword.medium {
+    font-size: 1em; }
+  .tech-keyword.small {
+    font-size: 0.8em; }
+
+.card-img {
+  width: 260px;
+  height: 260px;
+  margin: 20px auto; }
+
+.waterbase-img {
+  background-image: url(../assets/waterbase_bg.png);
+  background-size: 100%; }
+  .waterbase-img img {
+    width: 50%;
+    height: auto;
+    margin: 25%; }
+
+.twenty-img img {
+  height: 100%;
+  width: auto;
+  display: inline; }
+
+.project-overview {
+  text-align: center; }
+  .project-overview .title {
+    font-size: 2em; }
+  .project-overview .description {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 5px; }
 
 * {
   box-sizing: border-box;
@@ -106,5 +143,17 @@ a {
 a:visited {
   color: inherit; }
 
-.main {
-  margin-top: 60px; }
+body {
+  background-color: #666699;
+  padding-top: 60px;
+  color: white; }
+
+.card {
+  display: inline-block;
+  width: 320px;
+  height: 420px;
+  overflow: hidden;
+  padding: 10px; }
+
+.horizontal-line {
+  border-top: 1px solid white; }

@@ -1,0 +1,17 @@
+.tech-keyword {
+  border: 1px solid $color-white;
+  display: inline-block;
+  padding: 9px 18px;
+  margin: 6px;
+  border-radius: 6px;
+  color: $color-white;
+  &.big {
+    font-size: 1.2em;
+  }
+  &.medium {
+    font-size: 1em;
+  }
+  &.small {
+    font-size: 0.8em;
+  }
+}

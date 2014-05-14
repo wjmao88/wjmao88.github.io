@@ -8,14 +8,19 @@
         {{project.location}} - {{project.time}}
       </span>
     </header>
-    <div>
-      <a href="link.url" ng-repeat="link in project.links">
-        {{link.name}}
+    <div class="link" ng-repeat="link in project.links">
+      <a href="link.url" >
+        <i>{{link.name}}</i>
       </a>
     </div>
-    <p>
-      {{project.description}}
-    </p>
+    <div class="description">
+      <i>{{project.description}}</i>
+    </div>
+    <div>
+      <div class="tech-keyword medium" ng-repeat="tech in project.techs">
+        {{tech}} 
+      </div>
+    </div>
     <ul>
       <li ng-repeat="detail in project.details">
         {{detail}}

@@ -1,16 +1,35 @@
 .projects {
-  min-width: 300px;
-  max-width: 600px;
-  margin: auto;
   .project {
-    margin: 5px;
-    padding: 10px;
-    border: solid black 1px;
+    background-color: $color-main;
+    border: solid 1px $color-white;
+    padding: 20px;
+    margin: 10px auto;
+    min-width: 300px;
+    max-width: 600px;
+
   }
   header{
     @extend %clearfix;
+
+    .title{
+      font-size: 1.8em;
+    }
+    .info{
+      float: right;
+    }
   }
-  .info{
-    float: right;
+
+  .description{
+    font-size: 1.2em;
+    margin: 5px;
+  }
+
+  .link {
+    text-decoration: underline;
+  }
+
+  li{
+    
+    font-size: 1.2em;
   }
 }

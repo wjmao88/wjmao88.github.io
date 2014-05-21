@@ -15,9 +15,8 @@ window.myData = {
         }],
     techs: ["Angular", "Node", "Express", "Neo4j/Cypher", "Python"],
     details: [
-      'Native mobile app using Ionic and Phonegap with full touch controls',
-      'Continuously self improving recommendation system using Python\'s Scikit-Learn library',
-      'Real time messaging'
+      'Created a cluster based recommendations system on a Neo4j database, with a quick matching algorithm in a Node server responding to requests, and scheduled tasks with Python and the Scikit-Learn module for expensive clustering operations.'
+      'Created a genetic algorithm in Python to estimate user preferences for relevant profile features.'
     ]
   }, {
     name: 'Waterbase Project',
@@ -29,11 +28,8 @@ window.myData = {
         }],
     techs: ["Angular", "Node", "Express", "Mongodb"],
     details: [
-      'One click to create a new custom server, deployed and running on Heroku with MongoHQ database',
-      'Control panel in Angular allowing full control over server status',
-      'Full restful api in node and express, with built in authentication in passport',
-      'Client library using socket.io to achieve built in data binding to custom server with all its clients',
-      'Client library with easy integration, allowing libraries that has their own data binding mechanism to easily achieve three way data binding',
+      'One click to create a new custom server, with full restful api in node and express, with built in authentication in passport, deployed and running on Heroku with MongoHQ database',
+      'Client library using socket.io to achieve built in data binding to custom server with all its clients, leaving integration entry to allow libraries that has their own data binding mechanism to easily achieve three way data binding',
       'Dynamic mongoose schema updates itself as iteractions are made with the custom server'
     ]
   }, {

@@ -15,7 +15,7 @@ window.myData = {
         }],
     techs: ["Angular", "Node", "Express", "Neo4j/Cypher", "Python"],
     details: [
-      'Created a cluster based recommendations system on a Neo4j database, with a quick matching algorithm in a Node server responding to requests, and scheduled tasks with Python and the Scikit-Learn module for expensive clustering operations.'
+      'Created a cluster based recommendations system on a Neo4j database, with a quick matching algorithm in a Node server responding to requests, and scheduled tasks with Python and the Scikit-Learn module for expensive clustering operations.',
       'Created a genetic algorithm in Python to estimate user preferences for relevant profile features.'
     ]
   }, {

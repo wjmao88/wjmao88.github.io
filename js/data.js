@@ -67,7 +67,7 @@ window.myData = {
     ]
   }, {
     name: 'Contract work for HKR',
-    time: '2014',
+    time: '2013',
     description: 'Restaurant website and ordering system',
     links:[ {
           name: 'hkr20147.com',
@@ -82,7 +82,7 @@ window.myData = {
     ]
   }, {
     name: 'Software Developer, iSoftStone/Huawei',
-    time: '2014',
+    time: '2013',
     description: 'Data Warehousing developement with Oracle 11g database',
     techs: ["PL/SQL"],
     details: [
